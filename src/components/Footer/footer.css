@@ -1,0 +1,53 @@
+.footer-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.container{
+    margin-top: 34px;
+    margin-left: 7vw;
+}
+
+.container h1{
+    margin-bottom: 12px;
+}
+
+
+/* .contact-info{
+    margin-left: 50px;
+} */
+
+#contact
+{
+    background: #02445e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.form-control
+{
+    border-radius: 0 !important;
+    border: 0.5px solid #78787810;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #02445e;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 10px;
+}
