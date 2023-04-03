@@ -21,7 +21,7 @@ const Services = () => {
         <div className='services'>
             <div className='compartment-one'>
                 <h2>What We Do</h2>
-                <p>We assist clients in using data to solve real-world problems. Our strategy focuses on establishing value based gorvenance, implementing a rresults-driven product approach to data initiative and 
+                <p>We assist clients in using data to solve real-world problems. Our strategy focuses on establishing value based gorvenance, implementing a results-driven product approach to data initiative and 
                 establishing the competences and culture required to become a data-driven business.</p>
                 
                 <div className='grid-items'>
@@ -37,7 +37,7 @@ const Services = () => {
                         <img src = {softwareEngineer} alt="imghere" />
                         <div className='card-content'>
                             <h4>Software Engineering</h4>
-                            <p>We specialise in handling the design, prototype, development and support of your web and software applications</p>
+                            <p>We specialise in handling the design, prototype, development and support of your web and software applications.</p>
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@ const Services = () => {
                         <blockquote>
                         To determine the appropriate 
                         technological decisions and investments 
-                        needed to support future data capabilities
+                        needed to support future data capabilities.
                         </blockquote>
                     </div>
                 </div>
@@ -99,9 +99,9 @@ const Services = () => {
                     <div className="compart-three-text">
                         <h4>Data Security</h4>
                         <blockquote >
-                        Create a word-class data organisation 
-                        and culture, and teach employees how 
-                        to use data as a decision-
+                        We create world-class data organisation 
+                        and culture whilst teaching employees the 
+                        use of data as a decision-
                         making tool on a daily basis.
                         </blockquote>
                     </div>
@@ -112,9 +112,9 @@ const Services = () => {
                     <div className="compart-three-text">
                     <h4>Data Investment</h4>
                     <blockquote>
-                    Create a successful data 
-                    strategy and grasp the importance 
-                    of data to aquire business whilst 
+                    We create successful data 
+                    strategies and grasp the importance 
+                    of data to aquire business, 
                     ensuring data investments pay off.
                     </blockquote>
                     </div>

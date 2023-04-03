@@ -24,7 +24,7 @@ export const NavContainer= styled.div`
     height:80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 7vw;
     max-width: 1100px;    
    
 `;
@@ -36,9 +36,12 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
     font-weight: bold;
     text-decoration:none;
+
+    @media screen and (max-width: 768px){
+        font-size:1.3rem; 
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -47,10 +50,9 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 0;
         right: 0;
         transform: translate(-100%, 60%);
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         cursor: pointer;
         color: #fff;
     }

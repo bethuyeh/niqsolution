@@ -78,8 +78,8 @@ const Footer = () => {
       </form>
       </div> */}
           <div className=" contact-info">
+          <div className="follow"><b>UK Address</b> <i className="fa fa-map-marker"></i> 71-75 Shelton Street, Convent Garden, London, WC2H 9JQ</div>
           <div className="follow"><b>Nigeria Address:</b><i className="fa fa-map-marker"></i> Oladipo Diya Street, Apo Dutse, 110001 Abuja, Nigeria.</div>
-         <div className="follow"><b>UK Address</b> <i className="fa fa-map-marker"></i> 71-75 Shelton Street, Convent Garden, London, WC2H 9JQ</div>
          <div className="follow"><b>Phone:</b> <i className="fa fa-map-envelope-o"></i> +44(0)2033761345</div>
          {/* <div className="follow"> */}
          {/* <label><b>Get Social:</b></label> */}

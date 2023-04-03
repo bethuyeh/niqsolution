@@ -20,10 +20,10 @@
 
 #contact
 {
-    background: #2E3841;
+    background: #02445e;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: rgb(0, 0, 0);
+    color: #777;
 }
 
 .form-control
@@ -44,7 +44,7 @@
 .contact-info .fa
 {
     margin: 10px;
-    color: #2E3841;
+    color: 2E3841;
     font-weight: bold;
 }
 

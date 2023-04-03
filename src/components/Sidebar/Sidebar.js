@@ -4,9 +4,7 @@ import { SidebarContainer,
          CloseIcon,
          SidebarWrapper,
          SidebarMenu,
-         SidebarLink,
-         SideBtnWrap,
-         SideBtn
+         SidebarLink
  } from './SidebarCSS'
 
 const SideBar = ({isOpen, toggle}) => {
@@ -17,15 +15,12 @@ const SideBar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="/" onClick={toggle}>Home</SidebarLink>
-                    <SidebarLink to="/about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to="/services" onClick={toggle} >Services</SidebarLink>
-                    <SidebarLink to="/contact" onClick={toggle}>Contact</SidebarLink>
+                    <SidebarLink to="hero" onClick={toggle}>Home</SidebarLink>
+                    <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
+                    <SidebarLink to="services" onClick={toggle} >Services</SidebarLink>
+                    <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
 
-                <SideBtnWrap>
-                    <SideBtn to='/signin'>Sign In</SideBtn>
-                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )

@@ -24,17 +24,20 @@
     width: 100px;       
 }
 
+.about-text{
+    padding-left: 7vw;
+}
 .about-text blockquote{
     line-height: 2.5rem;
     margin-top: 15px;
     color: #787878;
-    padding-right: 7vw;
+    
 
 }
 
 .about-image img{
     max-height: 50vh;
-    padding-left: 7vw;
+    padding-right: 7vw;
     padding-top: 12px;
 
 }
